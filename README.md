@@ -5,12 +5,15 @@ DASHBOARD<br />
 #GESTÃO INSCRIÇÕES<br />
     INSCRIÇÕES<br />
     NOVA INSCRIÇÃO<br />
+    <br />
 #GESTÃO DE ALUNOS<br />
     LISTA DE ALUNOS<br />
     NOVO ALUNO<br />
+    <br />
 #GESTÃO DE EVENTOS<br />
     LISTA DE EVENTOS<br />
     NOVO EVENTO<br />
+    <br />
 
 #Menu com Perfil<br />
 ALTERAR SENHA<br />
