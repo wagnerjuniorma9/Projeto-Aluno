@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Login page CSS */
+
+body{
+    background-image: url("/assets/img/bg-escola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login input{
+    padding: 10px;
+}
+
+.login-bg{
+    background-color: #ffffff;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.login-bg input{
+    background-color: #f0f0f0;
+}
+
+.bg-login{
+    margin-top: 20%;
+}
+
+/* .bg-login{
+    background-image: url(/assets/img/bg-escola.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+/* main{
+    min-height: 900px;
+} */
+
+/* html{
+    background-image: url(/assets/img/bg-escola.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-backface-size: cover;
+    background-size: cover;
+} */
+
+/* Fim Login page CSS */
+
+
+/* Geral */
+.custon-button{
+    padding: 15px 25px 15px 25px;
+    font-size: 130%;
+    cursor: pointer;
+}
+
+.blue{
+    background-color: #2589fa;
+    color: #ffffff;
+}
+
+.blue:hover{
+    background-color: #006de9;
+}
+
+.button-container{
+    margin-bottom: 30px;
+}
+
+.wrapper{
+    padding: 20px;
+    height: auto;
+}
+
+footer{
+    background-color: #f0f0f0;
+    color: #555555;
+    display: table-row;
+    height: 1px;
+}
+/* Fim Geral */

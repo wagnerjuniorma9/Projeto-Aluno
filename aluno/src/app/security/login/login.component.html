@@ -1,0 +1,40 @@
+<main class="bg-login">
+    <div class="container-fluid">
+        <div class="container">
+
+            <div class="row">
+                <div class="offset-md-3 col-md-6">
+                    <div class="login-bg rounded">
+                        <form [formGroup]="loginForm" class="login">
+
+                            <app-input-container>
+                                <input type="text" class="form-control" id="user" placeholder="Usuario" formControlName="user">
+                            </app-input-container>
+
+                            <app-input-container>
+                                <input type="password" class="form-control" id="password" placeholder="Senha" formControlName="password">
+                            </app-input-container>
+
+                            <div class="button-container">
+                                <button (click)="login()" class="float-right btn btn-success" type="button">Login</button>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="login-bg rounded text-center">
+                        <p>Form Value: {{loginForm.value | json}}</p>
+                        <p>Form valid: {{loginForm.valid | json}}</p>
+                        <div (click)="criarConta()" class="custon-button blue">
+                            Cadastrar Conta
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+<app-footer></app-footer>
